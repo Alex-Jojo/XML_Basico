@@ -1,0 +1,22 @@
+
+<!DOCTYPE pedido [
+        <!ELEMENT pedido (destinatario, articulo, direccion, fecha_entrega)>
+        <!ELEMENT destinatario (#PCDATA)>
+        <!ELEMENT articulo (#PCDATA)>
+        <!ELEMENT direccion (#PCDATA)>
+        <!ELEMENT fecha_entrega (#PCDATA)>
+        ]>
+
+
+        <!DOCTYPE mensaje [
+
+        <!ELEMENT mensaje (remite, destinatario, asunto, texto) >
+        <!ELEMENT remite (nombre, email) >
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT email (#PCDATA) >
+        <!ELEMENT destinatario (nombre, email) >
+        <!ELEMENT asunto (#PCDATA) >
+        <!ELEMENT texto (parrafo*) >
+        <!ELEMENT parrafo (#PCDATA) >
+
+        ]>
