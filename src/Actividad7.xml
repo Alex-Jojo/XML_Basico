@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Invoice SYSTEM "Ticket-Empresa.dtd">
+<Invoice>
+    <Business>
+        <Name>Empresa</Name>
+        <Street>ubicacion</Street>
+        <geolocation>Hermosillo, Sonora. 12345</geolocation>
+        <Phone>111-111-1111</Phone>
+        <Email>info@info.com</Email>
+        <Website>www.website.com</Website>
+    </Business>
+    <Image>logo.jpg</Image>
+    <BillTo>
+        <Name>pedro</Name>
+        <StreetAdress>calle</StreetAdress>
+        <geolocation>Hermosillo, Sonora. 12344</geolocation>
+    </BillTo>
+    <ShipTo>
+        <Name>pedro</Name>
+        <StreetAdress>otra calle</StreetAdress>
+        <geolocation>Hermosillo, Sonora. 12344</geolocation>
+    </ShipTo>
+    <InvoiceDetails>
+        <Number>1231234</Number>
+        <Date>12-12-2023</Date>
+        <TermsofPayment>pagar hasta 15-12-2023</TermsofPayment>
+        <geolocation>Hermosillo, Sonora. 12345</geolocation>
+    </InvoiceDetails>
+    <Information>
+        <Product>Soda</Product>
+        <Description>El mejor producto</Description>
+        <Qty_Hrs>0</Qty_Hrs>
+        <Rate>3</Rate>
+        <Amount>12</Amount>
+    </Information>
+    <CustomerMessage>Hola amigo.</CustomerMessage>
+    <Payment>
+        <Subtotal>30</Subtotal>
+        <SalesTax>20</SalesTax>
+        <Shipping>10</Shipping>
+        <Total>60</Total>
+    </Payment>
+</Invoice>

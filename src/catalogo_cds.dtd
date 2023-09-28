@@ -1,6 +1,5 @@
 <!ELEMENT CatalogoCDs (CD+)>
         <!ELEMENT CD (Título, Artista, País, CompañíaDiscográfica, Precio, AñoPublicación)>
-
         <!ELEMENT Título (#PCDATA)>
         <!ELEMENT Artista (#PCDATA)>
         <!ELEMENT País (#PCDATA)>

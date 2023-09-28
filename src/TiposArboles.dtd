@@ -1,0 +1,10 @@
+<!ELEMENT Arboles (Arbol)*>
+        <!ELEMENT Arbol (Tipo|Nombrecomun|Vegetacion|Altura|FormaEstructura|ColorPrimavera|ResistenciaHeladas|ColorOtono)*>
+        <!ELEMENT Tipo (#PCDATA)>
+        <!ELEMENT Nombrecomun (#PCDATA)>
+        <!ELEMENT Vegetacion (#PCDATA)>
+        <!ELEMENT Altura (#PCDATA)>
+        <!ELEMENT FormaEstructura (#PCDATA)>
+        <!ELEMENT ColorPrimavera (#PCDATA)>
+        <!ELEMENT ResistenciaHeladas (#PCDATA)>
+        <!ELEMENT ColorOtono (#PCDATA)>

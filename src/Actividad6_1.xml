@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Documento>
+    <p>Mi primer documento XMl</p>
+    <p>Comienza con la etiqueta documento></p>
+    <p>A continuación colocamos una etiqueta sin contenido</p>
+    <Imagen> imagen.gif</Imagen>
+</Documento>

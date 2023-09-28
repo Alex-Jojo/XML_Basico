@@ -1,7 +1,4 @@
-
-
-
-        <!ELEMENT mensaje (remite, destinatario, asunto, texto) >
+<!ELEMENT mensaje (remite, destinatario, asunto, texto) >
         <!ELEMENT remite (nombre, email) >
         <!ELEMENT nombre (#PCDATA)>
         <!ELEMENT email (#PCDATA) >
